@@ -14,3 +14,11 @@ Then, allocate a new node and
 Assign the data to the new node
 And then make the next of new node as the next of previous node. 
 Finally, move the next of the previous node as a new node.
+Complexity Analysis: 
+
+Time complexity: O(1), since prev_node is already given as argument in a method, no need to iterate over list to find prev_node
+Auxiliary Space: O(1) since using constant space to modify pointers
+
+Add a node at the end: (6 steps process) 
+The new node is always added after the last node of the given Linked List. For example if the given Linked List is 5->10->15->20->25 and we add an item 30 at the end, then the Linked List becomes 5->10->15->20->25->30. 
+Since a Linked List is typically represented by the head of it, we have to traverse the list till the end and then change the next to last node to a new node.
