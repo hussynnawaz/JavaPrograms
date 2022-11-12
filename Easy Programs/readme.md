@@ -14,4 +14,4 @@ Using While Loop
 
 example n=153, the condition is true ,a=3, res=(0*10)+3=3, n=15
 n=15 condition true, a=5,res=30+5=35,n=1
-n=1,condition true, a=1, res=35*10+1=351,n=0, so while loop terminated and prints reverse number.
+n=1,condition true, a=1, res=35*10+1=351,n=0, so while loop terminated and prints reverse 
