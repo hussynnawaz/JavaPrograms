@@ -32,3 +32,17 @@ The given series is 10, 2, 1, 56, 48, 11.
 3rd iteration of i, compare 56 with the previous numbers of the sorted subarray, then the sorted subarray is 1, 2, 10, 56.
 4th iteration of i, compare 48 with previous numbers of the sorted subarray, then the subarray is 1, 2, 10, 48, 56.
 5th iteration of i, compare 11 with the previous numbers of the subarray, then the sorted array is 1, 2, 10, 11, 48, 56.
+1) Buffered Reader reads the data from the character-based input stream. In this program, InputStreamReader is the character based input stream.
+
+2) Using readLine() method read the data, parseInt() method converts the data into an integer value and store the numbers into the array a[].
+
+The given series is 10, 2, 1, 56, 48, 11.
+
+3) For each iteration of i, the inner loop will generate a sub-sorted array in which the least number is shifted to left by comparing with previous numbers.
+
+4) 1st iteration of i, compare 10,2 and 2 shifted to left. Then the sorted subarray is 2, 10.
+
+2nd iteration of i, compare 10,1 and shift 1 to left.compare 2,1 and shift 1 to left, then the sorted subarray is 1, 2, 10.
+3rd iteration of i, compare 56 with the previous numbers of the sorted subarray, then the sorted subarray is 1, 2, 10, 56.
+4th iteration of i, compare 48 with previous numbers of the sorted subarray, then the subarray is 1, 2, 10, 48, 56.
+5th iteration of i, compare 11 with the previous numbers of the subarray, then the sorted array is 1, 2, 10, 11, 48, 56.
