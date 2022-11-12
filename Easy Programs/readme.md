@@ -8,7 +8,6 @@ Using Static Method
 Using Function
 Using Recursion
 Using While Loop
-
 1) Entered value will be assigned to n and res=0.
 
 2) While loop iterates until n!=0, if n=0 then the loop terminated and prints the res  value.
